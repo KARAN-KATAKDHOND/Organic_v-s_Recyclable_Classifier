@@ -88,3 +88,28 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+st.markdown(
+    """
+    <style>
+    .credit {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 14px;
+        color: #999999;
+    }
+    .credit a {
+        color: #999999;
+        text-decoration: none;
+    }
+    .credit a:hover {
+        color: #4CAF50;
+    }
+    </style>
+    <div class="credit">
+        Created by <a href="https://github.com/KARAN-KATAKDHOND" target="_blank">Karan Katakdhond</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
