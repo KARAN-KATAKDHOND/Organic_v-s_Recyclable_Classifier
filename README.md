@@ -16,6 +16,7 @@ This project is a deep learning-based image classifier that can detect whether a
 
 <p align="center">
   <img src="screenshots/SSO1.png" alt="Streamlit UI" width="45%"/>
+&nbsp;
   <img src="screenshots/SSR1.png" alt="Prediction Output" width="45%"/>
 </p>
 
