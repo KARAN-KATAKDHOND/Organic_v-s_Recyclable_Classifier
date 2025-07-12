@@ -1,8 +1,11 @@
 services:
   - type: web
-    name: Organic_v-s_Recyclable_Classifier
+    name: organic-classifier
     env: python
     plan: free
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      echo "Python Version:" $(python --version)
+      pip install --upgrade pip
+      pip install -r requirements.txt
     startCommand: streamlit run app.py
     runtime: python-3.10.13
