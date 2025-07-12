@@ -15,9 +15,9 @@ This project is a deep learning-based image classifier that can detect whether a
 ## 🖼️ Screenshot
 
 <p align="center">
-  <img src="screenshots/SSO1.png" alt="Streamlit UI" width="45%"/>
+  <img src="screenshots/SSO1.png" alt="Organic" width="45%"/>
 &nbsp;
-  <img src="screenshots/SSR1.png" alt="Prediction Output" width="45%"/>
+  <img src="screenshots/SSR1.png" alt="Recyclable" width="45%"/>
 </p>
 
 ---
@@ -61,10 +61,10 @@ pip install -r requirements.txt
 ### ✅ 4. Train the Model (If you want to retrain)
 You can skip this if you're using the already trained .h5 model.
 
-# 1.Open the notebook:
+#### 1.Open the notebook:
   `Organic_Recyclable.ipynb`
 
-# 2.Ensure your dataset structure looks like this:
+#### 2.Ensure your dataset structure looks like this:
 ```
 dataset/
 ├── train/
@@ -74,11 +74,11 @@ dataset/
     ├── Organic/
     └── Recyclable/
 ```
-# 3.Upload images to appropriate folders.
+#### 3.Upload images to appropriate folders.
 
-# 4.Run all notebook cells.
+#### 4.Run all notebook cells.
 
-# 5.Save the model (e.g., recyclable_vs_organic.h5).
+#### 5.Save the model (e.g., recyclable_vs_organic.h5).
 
 ### ✅ 5.Run the app.py using streamlit:
 ```
