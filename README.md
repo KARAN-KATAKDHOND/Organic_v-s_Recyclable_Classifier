@@ -63,8 +63,13 @@ You can skip this if you're using the already trained .h5 model.
 
 #### 1.Open the notebook:
   `Organic_Recyclable.ipynb`
+#### 2.📁 Dataset Access
 
-#### 2.Ensure your dataset structure looks like this:
+You can download the dataset used in this project from the following secure link:  
+👉 [Download DATASET.zip](https://drive.google.com/file/d/1bu5kvTRL1-m_rjT_3VU7ZLq3K4N9unEj/view?usp=sharing)
+
+
+#### 3.Ensure your dataset structure looks like this:
 ```
 dataset/
 ├── train/
@@ -74,11 +79,11 @@ dataset/
     ├── Organic/
     └── Recyclable/
 ```
-#### 3.Upload images to appropriate folders.
+#### 4.Upload images to appropriate folders.
 
-#### 4.Run all notebook cells.
+#### 5.Run all notebook cells.
 
-#### 5.Save the model (e.g., recyclable_vs_organic.h5).
+#### 6.Save the model (e.g., recyclable_vs_organic.h5).
 
 ### ✅ 5.Run the app.py using streamlit:
 ```
