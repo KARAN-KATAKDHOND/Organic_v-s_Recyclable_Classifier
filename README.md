@@ -15,7 +15,7 @@ This project is a deep learning-based image classifier that can detect whether a
 ## 🖼️ Screenshot
 
 <p align="center">
-  <img src="screenshots/sso1.jpeg" alt="Organic" width="45%"/>
+  <img src="screenshots/sso1.png" alt="Organic" width="45%"/>
 &nbsp;
   <img src="screenshots/SSR1.png" alt="Recyclable" width="45%"/>
 </p>
