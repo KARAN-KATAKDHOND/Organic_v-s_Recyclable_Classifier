@@ -68,7 +68,7 @@ def main():
 
     if image_file:
         image = Image.open(image_file).convert("RGB")
-        st.image(image, caption="Uploaded Image", use_column_width=True)
+        st.image(image, caption="Uploaded Image", use_container_width=True)
 
         with st.spinner("Loading model..."):
             model = load_model()
