@@ -1,4 +1,4 @@
-# ♻️ EcoClassifier: Organic vs Recyclable
+# ♻️ Eco-Sort : Organic vs Recyclable Classifier
 
 This project is a deep learning-based image classifier that can detect whether a piece of trash is **Organic** (e.g., food waste) or **Recyclable** (e.g., plastic bottles). It uses a Convolutional Neural Network (CNN) trained using TensorFlow/Keras.
 
