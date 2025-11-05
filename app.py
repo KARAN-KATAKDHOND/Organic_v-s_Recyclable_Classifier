@@ -61,7 +61,7 @@ def predict_class(model, image_array):
 # Streamlit UI
 def main():
     add_custom_css()
-    st.title("EcoClassifier: Organic vs Recyclable")
+    st.title("Eco-Sort : Organic vs Recyclable")
     st.markdown("Upload an image to find out if it's **Organic** or **Recyclable**.")
 
     image_file = st.file_uploader("Upload an image (JPG, JPEG, PNG)", type=["jpg", "jpeg", "png"])
