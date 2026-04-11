@@ -7,7 +7,7 @@ This project is a deep learning-based image classifier that can detect whether a
 ## 📌 Features
 
 - Classifies trash images as **Organic** or **Recyclable**.
-- Upload image and get predictions via CLI or Web App.
+- Upload image and get predictions on Web App.
 - Simple to train, test, and run.
 
 ---
